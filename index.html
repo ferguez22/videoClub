@@ -12,6 +12,16 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/data.js"></script>
+
+    <!-- Meta etiquetas Open Graph -->
+    <meta property="og:title" content="Venta de Pelis online" />
+    <meta property="og:description" content="Disfruta de una pequeña app para la compra de pelis" />
+    <meta property="og:image"
+        content="https://media.a24.com/p/376a350ba507169934331ae8292014e5/adjuntos/296/imagenes/007/963/0007963382/10-paginas-para-ver-peliculas-online.jpeg" />
+    <meta property="og:url" content="https://ferguez22.github.io/videoClub/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Videoclub App" />
+
 </head>
 
 <body>
@@ -19,31 +29,32 @@
     <header>
         <nav class="navbar navbar-expand-lg">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="#" id="btnCarrito"><i class="fa-solid fa-shopping-cart"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="#" id="btnCarrito"><i
+                            class="fa-solid fa-shopping-cart"></i></a></li>
                 <li class="nav-item"><input class="form-control" type="search" placeholder="Buscar..."></li>
                 <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-user"></i></a></li>
             </ul>
         </nav>
     </header>
-<div class="container">
-    <section id="sectionCarrito" class="collapse">
-        <div class="cart-header">
-            <h1 class="mb-4">Carrito de compra</h1>
-            <button type="button" class="close" id="closeCart">
-                <span>&times;</span>
-            </button>
-        </div>
-        <div class="cart-body"></div>
-    </section>
     <div class="container">
-        <section id="sectionPeliculas">
+        <section id="sectionCarrito" class="collapse">
+            <div class="cart-header">
+                <h1 class="mb-4">Carrito de compra</h1>
+                <button type="button" class="close" id="closeCart">
+                    <span>&times;</span>
+                </button>
+            </div>
+            <div class="cart-body"></div>
         </section>
+        <div class="container">
+            <section id="sectionPeliculas">
+            </section>
+        </div>
     </div>
-</div>
-<footer class="text-center mt-4">
-<p>Tienda de Pelis Videclub ®</p>
-</footer>
-<script src="js/tiendaOnline.js"></script>
+    <footer class="text-center mt-4">
+        <p>Tienda de Pelis Videclub ®</p>
+    </footer>
+    <script src="js/tiendaOnline.js"></script>
 </body>
 
 </html>
